@@ -1,1 +1,120 @@
 /* Denna fil skall innehålla din CSS kod */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    height: 30vh; 
+    grid-template:
+    'hd'
+    'nv'
+    'mn'
+    'as'
+    'ft';
+
+}
+
+h1 {
+    
+    font-size: 50px;
+    text-align: center;
+    background-color: lightblue;
+   
+    
+
+    
+}
+
+
+
+nav {
+
+height: 10vh; 
+
+
+}
+
+header {
+  
+    background-color: white;
+
+}
+
+
+main {
+  
+   height: 50vh;
+   background-color: lightskyblue;
+
+
+}
+
+aside {
+    height: 30vh; 
+    background-color: lightcyan;
+    font-size: 2vh;
+   
+    
+}
+
+
+footer {
+
+    height: 3vh;
+    text-align: center;
+    
+    
+
+
+
+}
+
+button {
+
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color:lightcyan;   
+    
+    
+}
+
+
+#varg {
+
+height: 100%;
+width: 100%;
+
+
+}
+
+#kompis{
+
+    height: 50%;
+    width: 50%;
+}
+
+h2 { 
+
+    font-size: 50px;
+
+}
+
+
+#logga {
+
+    height: 50vh;
+    width: 50vh;
+}
+
+
+
+
+
+
+
+
